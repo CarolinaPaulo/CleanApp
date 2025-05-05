@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE687FF22DC977EC001232C5 /* Domain.docc in Sources */ = {isa = PBXBuildFile; fileRef = CE687FF12DC977EC001232C5 /* Domain.docc */; };
+		CE687FF82DC97883001232C5 /* AddAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE687FF72DC97883001232C5 /* AddAccount.swift */; };
+		CE687FFA2DC979B9001232C5 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE687FF92DC979B9001232C5 /* AccountModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE687FEE2DC977EC001232C5 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE687FF12DC977EC001232C5 /* Domain.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Domain.docc; sourceTree = "<group>"; };
+		CE687FF72DC97883001232C5 /* AddAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccount.swift; sourceTree = "<group>"; };
+		CE687FF92DC979B9001232C5 /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +47,8 @@
 		CE687FEF2DC977EC001232C5 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				CE687FF12DC977EC001232C5 /* Domain.docc */,
+				CE687FF72DC97883001232C5 /* AddAccount.swift */,
+				CE687FF92DC979B9001232C5 /* AccountModel.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -128,7 +131,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE687FF22DC977EC001232C5 /* Domain.docc in Sources */,
+				CE687FFA2DC979B9001232C5 /* AccountModel.swift in Sources */,
+				CE687FF82DC97883001232C5 /* AddAccount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
