@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		CE687FF82DC97883001232C5 /* AddAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE687FF72DC97883001232C5 /* AddAccount.swift */; };
 		CE687FFA2DC979B9001232C5 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE687FF92DC979B9001232C5 /* AccountModel.swift */; };
-		CE68800C2DC97CDC001232C5 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6880042DC97CDB001232C5 /* Data.framework */; };
-		CE6880112DC97CDC001232C5 /* DataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6880102DC97CDC001232C5 /* DataTests.swift */; };
+		CE6880112DC97CDC001232C5 /* RemoteAddAccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6880102DC97CDC001232C5 /* RemoteAddAccountTests.swift */; };
 		CE68801A2DC97D32001232C5 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE687FEE2DC977EC001232C5 /* Domain.framework */; };
 		CE68801B2DC97D32001232C5 /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE687FEE2DC977EC001232C5 /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE6880222DC981FB001232C5 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6880042DC97CDB001232C5 /* Data.framework */; };
+		CE6880232DC981FB001232C5 /* Data.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE6880042DC97CDB001232C5 /* Data.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,17 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CE6880242DC981FB001232C5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE6880232DC981FB001232C5 /* Data.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -52,7 +64,7 @@
 		CE687FF92DC979B9001232C5 /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
 		CE6880042DC97CDB001232C5 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE68800B2DC97CDC001232C5 /* DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE6880102DC97CDC001232C5 /* DataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTests.swift; sourceTree = "<group>"; };
+		CE6880102DC97CDC001232C5 /* RemoteAddAccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAddAccountTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE68800C2DC97CDC001232C5 /* Data.framework in Frameworks */,
+				CE6880222DC981FB001232C5 /* Data.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,8 +97,8 @@
 		CE687FC52DC97617001232C5 = {
 			isa = PBXGroup;
 			children = (
-				CE6880052DC97CDB001232C5 /* Data */,
 				CE687FEF2DC977EC001232C5 /* Domain */,
+				CE6880052DC97CDB001232C5 /* Data */,
 				CE68800F2DC97CDC001232C5 /* DataTests */,
 				CE687FD02DC97617001232C5 /* Products */,
 				CE6880192DC97D32001232C5 /* Frameworks */,
@@ -122,7 +134,7 @@
 		CE68800F2DC97CDC001232C5 /* DataTests */ = {
 			isa = PBXGroup;
 			children = (
-				CE6880102DC97CDC001232C5 /* DataTests.swift */,
+				CE6880102DC97CDC001232C5 /* RemoteAddAccountTests.swift */,
 			);
 			path = DataTests;
 			sourceTree = "<group>";
@@ -199,6 +211,7 @@
 				CE6880072DC97CDC001232C5 /* Sources */,
 				CE6880082DC97CDC001232C5 /* Frameworks */,
 				CE6880092DC97CDC001232C5 /* Resources */,
+				CE6880242DC981FB001232C5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -296,7 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE6880112DC97CDC001232C5 /* DataTests.swift in Sources */,
+				CE6880112DC97CDC001232C5 /* RemoteAddAccountTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
